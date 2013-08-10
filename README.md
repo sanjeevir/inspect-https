@@ -8,7 +8,7 @@ Hopefully you can adapt this for your purposes.
 
 But let's say you're developing an iOS native app that connects to a secure host (over TLS), and you'd rather view the traffic going back and forth from an external utility instead of going into the iOS app itself.
 
-Assuming you have access to the iOS's source and can make it accept non-signed certs (see below on how to do that), you're in luck. I'm also assuming that this traffic is signed (via OAuth or some other protocol; so the hostname you use in your requests must match the one on the server). That's where Charles.app and other reverse proxies would tend to break down. Not here, players, not here.
+Assuming you have access to the iOS's source and can make it accept self-signed certs (see below on how to do that), you're in luck. I'm also assuming that this traffic is signed (via OAuth or some other protocol; so the hostname you use in your requests must match the one on the server). That's where Charles.app and other reverse proxies would tend to break down. Not here, players, not here.
 
 Example usage
 =============
