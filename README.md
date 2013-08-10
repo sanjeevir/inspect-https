@@ -4,7 +4,7 @@ inspect-https
 node.js-powered transparent https (reverse) proxy that you can use to inspect https messages for dev purposes
 
 
-Hopefully you can adapt this your purposes.
+Hopefully you can adapt this for your purposes.
 
 But let's say you're developing an iOS native app that connects to a secure host (over TLS), and you'd rather view the traffic going back and forth from an external utility instead of going into the iOS app itself.
 
